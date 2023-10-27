@@ -114,10 +114,10 @@ module.exports.initPayment = async (req, res) => {
         //! Set the urls
         payment.setUrls({
             success:
-                "https://bohubrihi-e-com-backend-app.onrender.com/api/payment/success",
+                "https://e-commerce-backend-api-v1.onrender.com/api/payment/success",
             fail: "yoursite.com/fail",
             cancel: "yoursite.com/cancel",
-            ipn: "https://bohubrihi-e-com-backend-app.onrender.com/api/payment/ipn",
+            ipn: "https://e-commerce-backend-api-v1.onrender.com/api/payment/ipn",
         });
 
         //! Set order details
